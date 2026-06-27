@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+body {
+  font-family: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, Consolas,
+      monospace);
+}
+
+/* scrollbar โทนมืดให้เข้ากับธีม IDE */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #484f58;
+}
+
+/* highlight บรรทัดที่มี bug (ใช้ในระดับ noob/beginner) ผ่าน Monaco decorations */
+.bug-line-highlight {
+  background-color: rgba(210, 153, 34, 0.12);
+}
+.bug-line-glyph {
+  border-left: 3px solid #d29922;
+}
+/* ขีดเส้นหยักใต้คำที่เป็น bug */
+.bug-word-underline {
+  text-decoration: #f85149 wavy underline;
+  text-underline-offset: 3px;
+}

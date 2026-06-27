@@ -1,0 +1,3 @@
+# บังคับให้ไฟล์ shell ใช้ LF เสมอ กัน CRLF ทำ entrypoint พังบน Linux container
+*.sh text eol=lf
+docker-entrypoint.sh text eol=lf
