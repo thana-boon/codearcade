@@ -21,19 +21,21 @@ const games: GameCard[] = [
   },
   {
     title: "Code Arena",
-    tagline: "เขียนโค้ดแข่งกับเวลา",
-    description: "โจทย์ algorithm จับเวลา แข่งกันทำให้ผ่าน test case ให้ครบ",
-    href: null,
+    tagline: "คุมหุ่นยนต์เดิน maze ด้วยโค้ด",
+    description:
+      "เขียนโค้ด Python สั่ง bot ฝ่า maze ไปหาเป้าหมาย เล่นเดี่ยวเก็บคะแนน หรือสร้างห้องแข่งกับเพื่อนแบบ multiplayer",
+    href: "/games/code-arena",
     icon: "⚔️",
-    accent: "border-border",
+    accent: "border-accent",
   },
   {
     title: "Function Forge",
     tagline: "ประดิษฐ์ฟังก์ชันให้สมบูรณ์",
-    description: "เติมโค้ดในฟังก์ชันที่ขาดหายให้ทำงานได้ตามสเปก",
-    href: null,
+    description:
+      "เขียนฟังก์ชัน Python ให้ผ่าน test case ทุกข้อ (มีทั้ง test ที่เห็นและ test ที่ซ่อน) ตั้งแต่ noob ถึง god",
+    href: "/games/function-forge",
     icon: "🔨",
-    accent: "border-border",
+    accent: "border-accent",
   },
 ];
 
